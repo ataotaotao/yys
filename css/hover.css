@@ -1,143 +1,105 @@
 @charset 'utf-8';
-
-
-.news-banner a figure:hover{
-	text-decoration:none;
+.top-nav .right-nav > ul > li:hover > a{
+	color:#cc4336;
 }
 
-
-.toolbar .list  li:hover a{
-	color:#4A4A4A;
-}
-.list-product > li:hover > a{
-	color:#000;
-}
-.list-product > li:hover:after{
-	opacity:1;
-	bottom:0;
-}
-.video-os ul li:hover{
-	background-color:#25305B;
-}
-.video-os ul li:hover a{
-	color:#fff;
-}
-.video-os ul li:hover p.web-ios{
-	opacity:1;
-}
-.list-product li:hover .list-down{
-	transform:rotateX(0deg);
-	opacity:1;
+.hid-list ul li:hover a{
+	top:-20px;
 }
 
-.list-bottom .download-left:hover{
-	border-right-color:#ccc;
+.top-nav .right-nav > ul > li:hover .hid-list{
+	height:180px;
 }
-.list-bottom .download-left dl dd:hover svg{
-	opacity:1;
-}
-.list-bottom .download-left dl dd:hover span{
-	background-color:#26d5ad;
-	color:#fff;
-}
-.list-bottom .download-right:hover{
-	border:0;
+.top-nav .right-nav > ul > li.area:hover:after{
+	display:block;
 }
 
-.right-login ul li a:hover{
-	color:#000;
-}
-.right-login ul .register a:hover{
-	background-color:#000;
-	color:#fff;
-}
-
-
-.btn a:hover{
-	box-shadow:0 9px 30px -3px #848484;
-}
-.video-part  .popup-videobanner .list li:hover{
-	background-color:rgba(0,0,0,.5);
-}
-.video-part  .popup-videobanner .list li.hover-color:hover  a{
-	color:#fff;
-}
-
-
-.banner-controler ul li:hover:after{
-	height:3px;
-	background-color:#333;
-}
-
-.video-part .input-area .input svg:hover{
-	fill:red;
-}
-
-.linear-color ul li:nth-child(1):hover{
-	background-image:-webkit-linear-gradient(45deg,#3E88D8,#2FBBFE);
-	background-image:linear-gradient(45deg,#3E88D8,#2FBBFE);
-	box-shadow:0 5px 15px 5px #ABD5EF;
-}
-.linear-color ul li:nth-child(2):hover{
-	background-image:-webkit-linear-gradient(45deg,#24CEC9,#23E4E3);
-	background-image:linear-gradient(45deg,#24CEC9,#23E4E3);
-	box-shadow:0 5px 15px 5px #23E4E3;
-}
-.linear-color ul li:nth-child(3):hover{
-	background-image:-webkit-linear-gradient(45deg,#6870C9,#7885E9);
-	background-image:linear-gradient(45deg,#6870C9,#7885E9);
-	box-shadow:0 5px 15px 5px #7885E9;
-}
-.linear-color ul li:nth-child(4):hover{
-	background-image:-webkit-linear-gradient(315deg,#5857FF,#4EBBFF);
-	background-image:linear-gradient(315deg,#5857FF,#4EBBFF);
-	box-shadow:0 10px 15px 5px #4EBBFF;
-}
-
-.linear-color ul li:hover .content .svg-icon{
-	transform:scale(1.2);
-}
-.linear-color ul li:hover .content .svg-icon svg{
-	fill:#fff;
-}
-.linear-color ul li:hover .content p{
-	color:rgba(255,255,255,.6);
+.banner .center-banner .banner-area .controller:hover{
 	transform:scale(1.2);
 }
 
-.canvas .value-video .right-cont .cont-click a:hover i,.right-cont .cont-click a:focus i{
-	width:36px;
+.banner .download .right i:hover:nth-child(1){
+	background-position:-480px 80px;
+}
+.banner .download .right i:hover:nth-child(2){
+	background-position:-907px -959px;
+}
+
+.banner-content ul li a:hover{
+	color:#9c1a9a;
+}
+.banner-style > .right ul li.li1:hover{
+    height:205px;
+    left:25px;
+}
+.banner-style > .right ul li.li-right:hover{
+    margin-right:160px;
+}
+.banner-style > .right ul li.li-left:hover{
+    margin-left:25px;
+}
+.banner-character .container .all-character .first ul li:hover a{
+    color:#cea441;
+}
+
+.all-character .first .bottom-banner .all-kind .list1 ul li .top:hover p{
+    display:block;
+}
+
+.all-character .first .bottom-banner .all-kind .left-btn:hover{
+    background-position:159px -964px;
+}
+.all-character .first .bottom-banner .all-kind .right-btn:hover{
+    background-position:159px -898px;
 }
 
 
-.measure .cont-click ul li:hover i{
-	width:50px;
+.banner-character .container .all-character .second .containers .detail-persons .persons:hover{
+	background-color:#fff;
+	border-color:#000;
+}
+.banner-character .container .all-character .second .containers .detail-persons .persons:hover i{
+	display:block;
 }
 
-.more-video .container .content .more-info a:hover{
-	box-shadow:0 0 4px 1px rgba(103,118,182,.5);
+.stratage .container .left .btn:hover{
+	background-position:158px -505px;
+}
+.stratage .container .banner-content .content-list a:hover span{
+	top:-20px;
 }
 
-.footer .container .product .product-list dl dd:hover a,
-.footer .container .product .erweicode:hover a{
-	color:#23527c;
+.stratage .container .right .content-bottom .detail-content a:hover .abstract-content{
+	color:#c1831c;
 }
 
-.footer .footer-cont .container dl dd a:hover{
-	opacity:.5;
+.special-area .controller  .contribution:hover{
+	right:0;	
 }
-.footer .footer-cont .container .bottom a:hover{
+.special-area .banners ul li .img:hover .cover{
 	opacity:1;
 }
-.sidebar .face-after .robort  .person a:nth-child(1):hover{
+.activities .right ul li:hover img{
+    transform:scale(1.2);
+}
+
+.erweicode .icon-top:hover{
+	transform:translateY(-20px);
+}
+.footer .hover:hover  .experience{
+	opacity:0;
+}
+.footer .hover:hover  .erweicodes{
+	top:80px;
 	opacity:1;
 }
-.sidebar .face-after .input-area .choose a:nth-of-type(1):hover i{
-	background-position:-22px 0;
+.footer .hover:hover  .onoff{
+	margin-top:-20px;
 }
-.sidebar .face-after .input-area .choose a:nth-of-type(2):hover i{
-	background-position:-22px -22px;
+.footer .hover:hover .door{
+	margin-top:165px;
 }
-.sidebar .face-after .input-area .choose a:nth-of-type(3):hover i{
-	background-position:-22px -440px;
-}
+
+
+
+
