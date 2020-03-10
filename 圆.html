@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>demo</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link href=" " rel="stylesheet">
+        <style>
+            body,html{
+                width:100%;
+                height:100%;
+            }
+            .box{
+                width:100%;
+                height:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <canvas id='canvas'></canvas>
+        </div>
+        <script>
+            var canvas = document.getElementById('canvas');
+            var ctx = canvas.getContext('2d');
+            var w = canvas.width = canvas.parentNode.offsetWidth;
+            var h = canvas.height = canvas.parentNode.offsetHeight;
+            var r = 200;//最小圆的半径
+            var R = Math.sqrt( Math.pow(w/2,2)+Math.pow(h/2,2));//最大圆半径
+            var offset = 125;//圆与圆之间的距离
+            var num = Math.floor( (R - r)/offset );//能够绘制的个数
+
+            var arr = [];//用来存每一个圆的半径
+            for(var i=0;i<=num;i++){
+                var obj = {};
+                obj.r = offset*i+r;
+                obj.speed = Math.random()*3 + 0.5;
+                arr.push(obj);
+            }
+            //console.log(arr);
+            (function(){
+                ctx.clearRect(0,0,w,h);
+                for(var i=0;i<arr.length;i++){
+                    if(arr[i].r >=R){
+                        arr[i].r = r;
+                        arr[i].speed = Math.random()*3 + 0.5;
+                    }else{
+                        arr[i].r+=arr[i].speed;
+                    }
+                    arr[i].opacity = (R - arr[i].r)/R;//设置透明度，越是外面越透明
+                    draw(arr[i]);
+                }
+                requestAnimationFrame(arguments.callee);
+            })();
+
+            function draw(obj){
+                ctx.beginPath();//开始绘画
+                ctx.strokeStyle = 'rgba(0,0,0,'+obj.opacity+')';//设置颜色
+                ctx.arc(w/2,h/2,obj.r,0,360*Math.PI/180,true);//第一二个参数，表示圆心坐标，第三个是半径，第四五个表示绘制的是半圆，圆还是圆弧，0为开始度数，360为结束度数，最后一个参数，bool值，false 表示顺时针绘制，true表示逆时针绘制
+                ctx.stroke();
+            }
+        </script>
+    </body>
+</html>

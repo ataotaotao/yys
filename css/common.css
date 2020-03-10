@@ -1,0 +1,63 @@
+@charset 'utf-8';
+
+html,body{width:100%;height:100%}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,input,select,textarea,div,table,td,th,tr,dt,dd,dl{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+strong,b{font-weight:normal;}
+em,i{font-style:normal;}
+table{border-spacing:0;border-collapse:collapse;}
+img{border:0;vertical-align:middle;}
+input,select{vertical-align:middle;font-size:100%;line-height:150%;font-family:arial,'\5FAE\8F6F\96C5\9ED1',sans-serif;-webkit-appearance:none;}
+a{color:#000;text-decoration:none;outline:none;hide-focus:expression(this.hideFocus=true);background-color:transparent;-webkit-tap-highlight-color:transparent;}
+body{font:14px/1.5 arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;}
+figure{margin:0;}
+a, abbr, b, dd, dl, dt, em, figcaption, figure, h1, h2, h3, h4, h5, h6, kbd, label, li, ol, p, pre, s, small, span, strong, sub, sup, td, th, tr, ul {
+    font-family: "Helvetica Neue",Helvetica,PingFangSC-Regular,Arial,"Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+input{outline:0;border:0;}
+a:hover{
+	text-decoration:none;
+}
+
+/*---common---*/
+.ps-f{
+	position:fixed;
+}
+.ps-a{
+	position:absolute;
+}
+.ps-r{
+	position:relative;
+}
+
+.w-100{
+	width:100%;
+}
+
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.container{
+	width:80%;
+	padding: 0 15px;
+	margin:auto;
+}
+
+
+ul li,ol li{
+	float:left;
+}
+
+
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}

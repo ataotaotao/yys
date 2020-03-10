@@ -1,96 +1,143 @@
-@charset  "utf-8";
-.specific-nav .area:hover,.personal-taobao:hover,.net-nav:hover,.client-contact:hover,.seller-center:hover,
-.receive:hover{
-	background-color:#fff;
-}
-.specific-nav .area:hover .hid-area-info,.personal-taobao:hover .hid-taobao,.net-nav:hover .hid-info-net,
-.client-contact:hover .hid-contact,.seller-center:hover .hid-seller-cen,.receive:hover .hid-receive,
-.center-line-list .icon-tbao:hover:after,.content-pro-show .kind-cloth li:hover .hid-cont-common,
-.kind-of-infor li + li:hover div,.check-phone:hover i:nth-child(2),.telephone-input:focus ~ .hid-save-phone,
-.telephone-input:focus ~ .choose-money,.flex-area > ul > li:hover .hid-money,.brand-list-exhit li:hover .hid-erwm,
-.erwm-small-big:hover .hid-big-erwm,.lists-great-goods li:hover .hid-bottom-cont{
-	display:block;
-	z-index:5;
-}
-.hid-area-info p:hover,.hid-taobao p:hover,.hid-contact p:hover,.seller-center p:hover,.receive p:hover{
-	background-color:#f4f4f4;
-}
-.free-regist a:hover,.phone-taobao a:hover,.personal-taobao > a:hover,.client-contact > a:hover,
-.net-nav > a:hover,.seller-center > a:hover,.product-kind > a:hover,.receive > a:hover,.shop-car > a:hover{
-	color:#f22e00;
-}
-.topic-market li:hover{
-	background-color:#f50;
-}
-.special-market li:hover{
-	background-color:#9fb838;
-}
-.ali-app li:hover{
-	background-color:#d75696;
-}
-.great-recom li:hover{
-	background-color:#2e9fdb;
-}
-.topic-market li:hover a,.special-market li:hover a,.ali-app li:hover a,.great-recom li:hover a{
-	color:#fff;
-}
-.tmall-shop:hover{
-	background-color:#FFEEE5;
-	color:#FF5400;
-}
-.specific-trea li a:hover,.content-pro-show .left-show > ul > li:hover > a,
-.content-pro-show .left-show > ul > li:hover  > span,
-.woman-cloth h3 a:hover,.woman-cloth h3 a span:hover,.img-intro-show li:hover p,
-.right-content-show:hover .right-cont h3 a,.right-cont h3 span:hover,.choose-money ul li:hover,
-.flex-area > ul > li:hover p,.hid-money ul li:hover > a,.brand-pay h3 a:hover,
-.every-brand li:hover .right-img-cont h3,.specific-pro-list li:hover .sofa,
-.specific-pro-list li:hover .no-see-glass,.l-p-s-left > ul > li:hover h3 a,
-.great-goods li h3 a:hover,.hot-selling-lists li a:hover,.details-guarentee li a:hover,
-.support a:hover{
-	color:#ff5000;
-}
-.tmall-shop:hover + .specific-trea{
-	z-index:2;
-}
-.content-pro-show .left-show > ul > li:hover,.choose-money ul li:hover{
-	background-color:#FFEEE5;
-}
-.content-pro-show .left-show > ul > li > a:hover {
-	text-decoration:underline;
-}
-.banner-show-top:hover:before,.banner-show-top:hover:after{
-	display:block;
-}
-.kind-of-infor  li:hover{
-	border-bottom-color:#ff5000;
-}
-.kind-of-infor  li > a:hover{
-	color:#ff5000;
-	font-weight:bold;
-}
-.flex-area > ul:nth-child(1)  > li:nth-child(1):hover{
-	border-color:red;
-	border-left:1px solid red;
-	border-bottom-color:transparent;
-}
-.every-brand li:hover .img-showing{
-	border-color:#ff5000;
-}
-.img-area-selling:hover .cover-opacity,.home-furniture:hover .h-f-mask{
-	opacity:1;
-}
-.feature-shop li:hover,.k-o-f-right:hover,.home-furniture:hover,.wonderful-life:hover,
-.education-china:hover,.great-goods li:hover,.specific-goods li:hover,.big-brand-show a:hover,
-.lists-great-goods li:hover{
-	border-color: #ff5000;
-}
-.cheap-price span a i:hover{
+@charset 'utf-8';
+
+
+.news-banner a figure:hover{
 	text-decoration:none;
 }
-.side-nav ul li + li:hover{
-	background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+
+
+.toolbar .list  li:hover a{
+	color:#4A4A4A;
 }
-.side-nav ul li + li:hover p a,.side-nav ul li + li:hover p i{
+.list-product > li:hover > a{
+	color:#000;
+}
+.list-product > li:hover:after{
+	opacity:1;
+	bottom:0;
+}
+.video-os ul li:hover{
+	background-color:#25305B;
+}
+.video-os ul li:hover a{
 	color:#fff;
-	font-weight:bold;
+}
+.video-os ul li:hover p.web-ios{
+	opacity:1;
+}
+.list-product li:hover .list-down{
+	transform:rotateX(0deg);
+	opacity:1;
+}
+
+.list-bottom .download-left:hover{
+	border-right-color:#ccc;
+}
+.list-bottom .download-left dl dd:hover svg{
+	opacity:1;
+}
+.list-bottom .download-left dl dd:hover span{
+	background-color:#26d5ad;
+	color:#fff;
+}
+.list-bottom .download-right:hover{
+	border:0;
+}
+
+.right-login ul li a:hover{
+	color:#000;
+}
+.right-login ul .register a:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+
+.btn a:hover{
+	box-shadow:0 9px 30px -3px #848484;
+}
+.video-part  .popup-videobanner .list li:hover{
+	background-color:rgba(0,0,0,.5);
+}
+.video-part  .popup-videobanner .list li.hover-color:hover  a{
+	color:#fff;
+}
+
+
+.banner-controler ul li:hover:after{
+	height:3px;
+	background-color:#333;
+}
+
+.video-part .input-area .input svg:hover{
+	fill:red;
+}
+
+.linear-color ul li:nth-child(1):hover{
+	background-image:-webkit-linear-gradient(45deg,#3E88D8,#2FBBFE);
+	background-image:linear-gradient(45deg,#3E88D8,#2FBBFE);
+	box-shadow:0 5px 15px 5px #ABD5EF;
+}
+.linear-color ul li:nth-child(2):hover{
+	background-image:-webkit-linear-gradient(45deg,#24CEC9,#23E4E3);
+	background-image:linear-gradient(45deg,#24CEC9,#23E4E3);
+	box-shadow:0 5px 15px 5px #23E4E3;
+}
+.linear-color ul li:nth-child(3):hover{
+	background-image:-webkit-linear-gradient(45deg,#6870C9,#7885E9);
+	background-image:linear-gradient(45deg,#6870C9,#7885E9);
+	box-shadow:0 5px 15px 5px #7885E9;
+}
+.linear-color ul li:nth-child(4):hover{
+	background-image:-webkit-linear-gradient(315deg,#5857FF,#4EBBFF);
+	background-image:linear-gradient(315deg,#5857FF,#4EBBFF);
+	box-shadow:0 10px 15px 5px #4EBBFF;
+}
+
+.linear-color ul li:hover .content .svg-icon{
+	transform:scale(1.2);
+}
+.linear-color ul li:hover .content .svg-icon svg{
+	fill:#fff;
+}
+.linear-color ul li:hover .content p{
+	color:rgba(255,255,255,.6);
+	transform:scale(1.2);
+}
+
+.canvas .value-video .right-cont .cont-click a:hover i,.right-cont .cont-click a:focus i{
+	width:36px;
+}
+
+
+.measure .cont-click ul li:hover i{
+	width:50px;
+}
+
+.more-video .container .content .more-info a:hover{
+	box-shadow:0 0 4px 1px rgba(103,118,182,.5);
+}
+
+.footer .container .product .product-list dl dd:hover a,
+.footer .container .product .erweicode:hover a{
+	color:#23527c;
+}
+
+.footer .footer-cont .container dl dd a:hover{
+	opacity:.5;
+}
+.footer .footer-cont .container .bottom a:hover{
+	opacity:1;
+}
+.sidebar .face-after .robort  .person a:nth-child(1):hover{
+	opacity:1;
+}
+.sidebar .face-after .input-area .choose a:nth-of-type(1):hover i{
+	background-position:-22px 0;
+}
+.sidebar .face-after .input-area .choose a:nth-of-type(2):hover i{
+	background-position:-22px -22px;
+}
+.sidebar .face-after .input-area .choose a:nth-of-type(3):hover i{
+	background-position:-22px -440px;
 }
