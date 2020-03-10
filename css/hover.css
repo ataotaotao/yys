@@ -1,0 +1,96 @@
+@charset  "utf-8";
+.specific-nav .area:hover,.personal-taobao:hover,.net-nav:hover,.client-contact:hover,.seller-center:hover,
+.receive:hover{
+	background-color:#fff;
+}
+.specific-nav .area:hover .hid-area-info,.personal-taobao:hover .hid-taobao,.net-nav:hover .hid-info-net,
+.client-contact:hover .hid-contact,.seller-center:hover .hid-seller-cen,.receive:hover .hid-receive,
+.center-line-list .icon-tbao:hover:after,.content-pro-show .kind-cloth li:hover .hid-cont-common,
+.kind-of-infor li + li:hover div,.check-phone:hover i:nth-child(2),.telephone-input:focus ~ .hid-save-phone,
+.telephone-input:focus ~ .choose-money,.flex-area > ul > li:hover .hid-money,.brand-list-exhit li:hover .hid-erwm,
+.erwm-small-big:hover .hid-big-erwm,.lists-great-goods li:hover .hid-bottom-cont{
+	display:block;
+	z-index:5;
+}
+.hid-area-info p:hover,.hid-taobao p:hover,.hid-contact p:hover,.seller-center p:hover,.receive p:hover{
+	background-color:#f4f4f4;
+}
+.free-regist a:hover,.phone-taobao a:hover,.personal-taobao > a:hover,.client-contact > a:hover,
+.net-nav > a:hover,.seller-center > a:hover,.product-kind > a:hover,.receive > a:hover,.shop-car > a:hover{
+	color:#f22e00;
+}
+.topic-market li:hover{
+	background-color:#f50;
+}
+.special-market li:hover{
+	background-color:#9fb838;
+}
+.ali-app li:hover{
+	background-color:#d75696;
+}
+.great-recom li:hover{
+	background-color:#2e9fdb;
+}
+.topic-market li:hover a,.special-market li:hover a,.ali-app li:hover a,.great-recom li:hover a{
+	color:#fff;
+}
+.tmall-shop:hover{
+	background-color:#FFEEE5;
+	color:#FF5400;
+}
+.specific-trea li a:hover,.content-pro-show .left-show > ul > li:hover > a,
+.content-pro-show .left-show > ul > li:hover  > span,
+.woman-cloth h3 a:hover,.woman-cloth h3 a span:hover,.img-intro-show li:hover p,
+.right-content-show:hover .right-cont h3 a,.right-cont h3 span:hover,.choose-money ul li:hover,
+.flex-area > ul > li:hover p,.hid-money ul li:hover > a,.brand-pay h3 a:hover,
+.every-brand li:hover .right-img-cont h3,.specific-pro-list li:hover .sofa,
+.specific-pro-list li:hover .no-see-glass,.l-p-s-left > ul > li:hover h3 a,
+.great-goods li h3 a:hover,.hot-selling-lists li a:hover,.details-guarentee li a:hover,
+.support a:hover{
+	color:#ff5000;
+}
+.tmall-shop:hover + .specific-trea{
+	z-index:2;
+}
+.content-pro-show .left-show > ul > li:hover,.choose-money ul li:hover{
+	background-color:#FFEEE5;
+}
+.content-pro-show .left-show > ul > li > a:hover {
+	text-decoration:underline;
+}
+.banner-show-top:hover:before,.banner-show-top:hover:after{
+	display:block;
+}
+.kind-of-infor  li:hover{
+	border-bottom-color:#ff5000;
+}
+.kind-of-infor  li > a:hover{
+	color:#ff5000;
+	font-weight:bold;
+}
+.flex-area > ul:nth-child(1)  > li:nth-child(1):hover{
+	border-color:red;
+	border-left:1px solid red;
+	border-bottom-color:transparent;
+}
+.every-brand li:hover .img-showing{
+	border-color:#ff5000;
+}
+.img-area-selling:hover .cover-opacity,.home-furniture:hover .h-f-mask{
+	opacity:1;
+}
+.feature-shop li:hover,.k-o-f-right:hover,.home-furniture:hover,.wonderful-life:hover,
+.education-china:hover,.great-goods li:hover,.specific-goods li:hover,.big-brand-show a:hover,
+.lists-great-goods li:hover{
+	border-color: #ff5000;
+}
+.cheap-price span a i:hover{
+	text-decoration:none;
+}
+.side-nav ul li + li:hover{
+	background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+.side-nav ul li + li:hover p a,.side-nav ul li + li:hover p i{
+	color:#fff;
+	font-weight:bold;
+}
